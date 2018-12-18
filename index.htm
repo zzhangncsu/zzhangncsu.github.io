@@ -1,0 +1,444 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="index,follow">
+<meta name="description" content="PhD student Zhe Zhang homepage NC State University, Sentiment Analysis, Text Mining, Machine Learning, Natural Language Processing, Social Network">
+
+<title>Zhe Zhang's Homepage</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+    text-indent:2px;
+	padding: 3px ;
+	margin: 0;
+	list-style-position:inside;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ 6E6C64*/
+a:link {
+	color: #6E6C64;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	color: #CC0000;
+	text-decoration: none;
+}
+
+/* ~~ this fixed width container surrounds the other divs ~~ */
+.container {
+	width: 960px;
+	background: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+/* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
+.header {
+	border-bottom-style: solid;
+	border-bottom-color: #CC0000;
+	border-left-style: none;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	color: #CC0000;
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+.content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	background-color: #CC0000;
+	color: #FFF;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 4px;
+	padding-right: 15px;
+	padding-bottom: 4px;
+	padding-left: 15px;
+	font-weight: bold;
+	height: 15px;
+	width: 930px;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+/* LIST #4 */
+#list4 { width:230px; font-family:Arial, Helvetica, sans-serif; font-size:14px; }
+#list4 ul { list-style: none; }
+#list4 ul li { }
+#list4 ul li a { display:block; text-decoration:none; color:#000000; background-color:#FFFFFF; line-height:30px;
+  border-bottom-style:solid; border-bottom-width:2px; border-bottom-color:#E21C2B; padding-left:10px; cursor:pointer; }
+#list4 ul li a:hover { color:#FFFFFF; background-image:url(img/hover2.png); background-repeat:repeat-x; }
+#list4 ul li a strong { margin-right:10px; }
+
+
+
+
+#navigation {
+	
+	padding:10px 0px;
+	width:145px;
+}
+#navigation a  {
+	display:block;
+	background:url(img/navf.png);
+	height:47px;
+	text-indent:-9000px;
+}
+#navigation a.link1:hover {background-position:-146px 0px;}
+#navigation a.link2 {background-position:0px -47px;}
+#navigation a.link2:hover {background-position:-146px -47px;}
+#navigation a.link3 {background-position:0px -94px;}
+#navigation a.link3:hover {background-position:-146px -94px;}
+#navigation a.link4 {background-position:0px -141px;}
+#navigation a.link4:hover {background-position:-146px -141px;}
+.new {
+	color: #e11c2a;
+	padding-left: 20px;
+}
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31676193-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</head>
+
+<body>
+
+<div style="padding-top: 10px; width: 125px;height: 150px; style=; display: none;"><img src="img/zhe_zhang.jpg" alt="Zhe Zhang PhD student from computer science department at North Carolina State University" name="Zhe Zhang PhD student from computer science department at North Carolina State University" width="125" height="150" style=" background-color: #FFFFFF;" /> </div>
+
+<div class="container"  style="margin-top:16px;height: 1825px;">
+  <div class="header" style="height: 171px;">
+  <div style="float: center;width: 960px;">
+  <img src="img/homepage_logo.png" alt="Zhe Zhang PhD student from computer science at North Carolina State University" name="Zhe Zhang PhD student from computer science at North Carolina State University" width="960" height="171" border="0" usemap="#Insert_logoMap" id="Zhe Zhang" style=" background-color: #FFFFFF;" />
+    <map name="Insert_logoMap">
+      <area shape="rect" coords="174,127,431,152" href="http://www.ncsu.edu" target="_new" alt="North Carolina State University">
+      <area shape="rect" coords="173,103,340,125" href="http://www.csc.ncsu.edu" target="_new" alt="Department of Computer Science">
+      <area shape="rect" coords="849,6,951,163" href="http://125.ncsu.edu" target="_new" alt="Celebrate 125 years">
+      <area shape="rect" coords="556,114,730,140" href="mailto:zzhang13@ncsu.edu" target="_new" alt="Email me!">
+    </map>
+    
+  </div>
+
+  </div>
+  <div class="content" style="height: 1625px;">
+
+
+    
+    
+    <div id="leftMenu" style="float: left; height:1625px; font-family: Verdana, 
+Arial, Helvetica; border-right-width: 1px; border-right-color: #999;border-right-style:solid;">
+
+
+    
+<div style="height:220px">
+<ul id="navigation">
+    <li><a href="final_exam/attachments/CV_Zhe_Zhang.pdf" class="link1">cv</a></li>
+    <li><a href="written_exam/index.htm" class="link2">written</a></li>
+    <li><a href="prelim_exam/index.htm" class="link3">prelim</a></li>
+    <li><a href="final_exam/index.htm" class="link4">prelim</a></li>
+
+</ul>
+</div>
+
+<div style="height:40px;width: 180px;">
+<div style="float: left;height:100px;width: 23px;">
+</div>
+
+<div  class="g-plusone" data-size="medium"></div>
+<div style="float: left;padding-top: 10px;width: 50px;" class="fb-like" data-href="http://www4.ncsu.edu/~zzhang13/" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true" data-font="arial"></div>
+
+
+</div>
+
+</div>
+
+<div id="rightMenu" style="float: left; color: #4f4f4f; width:700px; text-align: justify; font-family: Verdana, Arial, Helvetica; padding-left: 20px;">
+    <div>
+    
+    <div style="padding-top: 15px;padding-bottom: 5px;">
+    <b>Short Bio</b>
+    <a href="http://www.linkedin.com/in/zhezhangncsu" target="_new"><img src="http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Zhe Zhang's profile on LinkedIn"></a>
+    <a href="//plus.google.com/110057447425899594402?prsrc=3" rel="publisher" style="text-decoration:none;" target="_new">
+<img src="//ssl.gstatic.com/images/icons/gplus-16.png" alt="Google+" style="border:0;width:16px;height:16px;"/></a>
+<a href="https://www.facebook.com/ahaowei" style="text-decoration:none;" target="_new">
+<img src="img/f_logo.png" alt="Facebook" style="border:0;width:16px;height:16px;"/></a>
+    </div>
+    <div style="padding-left: 15px" itemscope itemtype="http://data-vocabulary.org/Person">
+    <div style="padding-top: 10px; width: 125px;height: 150px; style=; display: none;"><img src="img/zhe_zhang.jpg"  itemprop="photo" alt="Zhe Zhang PhD student from computer science department at North Carolina State University" name="Zhe Zhang PhD student from computer science department at North Carolina State University" width="125" height="150" style=" background-color: #FFFFFF;" /> </div>
+    My name is <span itemprop="name">Zhe Zhang</span>. I am a <span itemprop="title">Ph.D. student</span> in the <a href="http://research.csc.ncsu.edu/mas/" target="_new" alt="MAS Lab">Multiagent Systems and Service-Oriented Computing Lab</a>, which is a part of the Department of <a href="http://www.csc.ncsu.edu/" target="_new" alt="Computer Science at North Carolina State University">Computer Science</a> at <span itemprop="affiliation"><a href="http://www.ncsu.edu/" target="_new" alt="North Carolina State University">North Carolina State University</a></span>. My advisor is <a href="http://www.csc.ncsu.edu/faculty/mpsingh/" target="_new" alt="Prof. Munindar P. Singh">Prof. Munindar P. Singh</a>. I received my Master of Science degree from North Carolina State University and Bacholer's degree in <a href="http://info.ruc.edu.cn/homes/" target="_new" alt="Computer Science Department of Renmin University">Computer Science</a> from <a href="http://www.ruc.edu.cn/en" target="_new" alt="Renmin University of China">Renmin University, China</a>.
+    </div>
+    
+    </div>
+    
+     <div>
+    
+    <div style="padding-top: 15px;padding-bottom: 5px;">
+    <b>Research Interests</b>
+    </div>
+    <div style="padding-left: 15px">
+    Sentiment analysis, text mining, data mining, Machine learning<br>
+    Natural language processing, information extraction<br>
+Social network computing, trust propagation
+    </div>
+    
+    </div>
+   
+       
+     <div>
+    
+    <div style="padding-top: 15px;padding-bottom: 5px;">
+    <b>Honors</b>
+    </div>
+    <div class="news" style="padding-left: 15px;text-align: left;">
+      <ul>
+		  <li><a href="http://www.csc.ncsu.edu/news/1623"  target="_new" alt="The announcement on the department website">2014-2015 IBM Ph.D. Fellowship</a></li>
+	  <li><a href="http://www.csc.ncsu.edu/news/1462"  target="_new" alt="The announcement on the department website">2013-2014 IBM Ph.D. Fellowship</a>  <span class="new"></span></li>
+      <li><a href="http://www.csc.ncsu.edu/news/1398"  target="_new" alt="The announcement on the department website">2012-2013 IBM Ph.D. Watson Solutions Fellowship</a>    </li>
+		<li>ACL 2014 student travel award</li>
+      <li>Intel International Science and Engineering Fair (China) Silver</li>
+      <li>Intel International Science and Engineering Fair (Beijing) Gold</li>
+   <!--- <li>Future Scientists of China Scholarships</li> -->  
+   </ul>
+    </div>
+    
+    </div>
+   
+       <div>
+    
+    <div style="padding-top: 15px;padding-bottom: 5px;">
+    <b>Education</b>
+    </div>
+    
+    
+    <div style=" height: 80px;">
+
+<div style="float: left; height: 75px; width:450px;padding-top: 3px;padding-left: 15px">
+North Carolina State University<br>
+PhD candidate in Computer Science<br>   
+Advisor: Dr. Munindar P. Singh
+</div>
+<div style="float: left;height: 75px;padding-left: 20px;padding-top: 3px;width:200px;">
+2009 - Present
+</div>
+</div>
+
+
+    <div style=" height: 70px;">
+
+<div style="float: left; height: 65px; width:450px;padding-top: 3px;padding-left: 15px">
+North Carolina State University<br>
+Master of Science <span class="new"></span> <br> 
+</div>
+<div style="float: left;height: 65px;padding-left: 20px;padding-top: 3px;width:200px;">
+2009 - 2012
+</div>
+</div>
+
+<div style=" height: 70px;">
+
+<div style="float: left; height: 65px; width:450px;padding-top: 3px;padding-left: 15px">
+Renmin University of China<br>
+Bachelor of Engineering in Computer and Information Science
+</div>
+<div style="float: left;height: 65px;padding-left: 20px;padding-top: 3px;width:200px;">
+2003 - 2007
+</div>
+</div>
+    
+    </div>
+   
+        <div>
+    
+    <div style="padding-top: 15px;padding-bottom: 5px;">
+    <b>Recent Industry Experience</b>
+    </div>
+	    <div style="height: 75px;">
+	<div style="float: left; height: 75px; width:450px;padding-top: 3px;padding-left: 15px">
+	Intern<br>
+	Watson Solutions Core Technology Development Team<br>   
+	IBM
+
+	</div>
+	<div style="float: left;height: 75px;padding-left: 20px;padding-top: 3px;width:200px;">
+	May 2013-Aug. 2013
+	</div>
+	</div>
+	
+	
+
+    <div style="height: 75px;">
+<div style="float: left; height: 75px; width:450px;padding-top: 3px;padding-left: 15px">
+Intern<br>
+Watson Solutions Core Technology Development Team<br>   
+IBM
+
+</div>
+<div style="float: left;height: 75px;padding-left: 20px;padding-top: 3px;width:200px;">
+May 2012-Aug. 2012
+</div>
+</div>
+</div>
+
+
+
+  <div>
+    
+    <div style="padding-top: 15px;padding-bottom: 5px;">
+    <b>Research Experience</b>
+    </div>
+    <div style="height: 75px;">
+<div style="float: left; height: 75px; width:450px;padding-top: 3px;padding-left: 15px">
+Graduate Research Assistant<br>
+North Carolina State University<br>   
+Raleigh, NC
+</div>
+<div style="float: left;height: 75px;padding-left: 20px;padding-top: 3px;width:200px;">
+Aug. 2009 - Present
+</div>
+</div>
+</div>
+
+ <div>
+    
+    <div style="padding-top: 15px;padding-bottom: 5px;">
+    <b>Teaching Experience</b>
+    </div>
+    <div style="height: 100px;">
+<div style="float: left; height: 100px; width:450px;padding-top: 3px;padding-left: 15px">
+Teaching Assistant<br>
+Course: CSC246 Operating Systems<br>
+North Carolina State University<br>   
+Raleigh, NC
+</div>
+<div style="float: left;height: 100px;padding-left: 20px;padding-top: 3px;width:200px;">
+Fall 2009
+</div>
+</div>
+</div>
+
+
+    <div>
+    
+    <div style="padding-top: 15px;padding-bottom: 5px;">
+    <b>Publications</b>
+    </div>
+    <div style="text-align: left;">
+      
+      <div style="padding-left: 15px;text-align: justify; ">
+   <ul>
+		<li style="margin: 1em 0;">[C7] Guangchao Yuan, Pradeep Murukannaiah, Zhe Zhang, and Munindar P. Singh. <a href="http://www.csc.ncsu.edu/faculty/mpsingh/papers/others/RecSys-14-Homophily.pdf" target="_new" alt="Exploiting Sentiment Homophily for Link Prediction">Exploiting Sentiment Homophily for Link Prediction.</a> Proceedings of the 8th ACM Recommender System conference (RecSys). October 2014</li>	
+		
+	<li style="margin: 1em 0;">[C6] Anup K. Kalia, Zhe Zhang, and Munindar P. Singh. Estimating Trust from Agents' Interactions via Commitments. Proceedings of the 21st European Conference on Artificial Intelligence (ECAI). August 2014</li>	
+	
+	  <li style="margin: 1em 0;">[C5] Zhe Zhang and Munindar P. Singh. <a href="papers/ReNew_ACL.pdf" target="_new" alt="ReNew: A Semi-Supervised Framework for Generating Domain-Specific Lexicons and Sentiment Analysis">ReNew: A Semi-Supervised Framework for Generating Domain-Specific Lexicons and Sentiment Analysis.</a> Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (ACL). June 2014, pages 542–551</li>	
+     
+ 	  <li style="margin: 1em 0;">[J4] Chung-Wei Hang, Zhe Zhang, and Munindar P. Singh. <a href="http://www.csc.ncsu.edu/faculty/mpsingh/papers/mas/Computer-13.pdf" target="_new" alt="Generalized Trust Propagation with Limited Evidence">Generalized Trust Propagation with Limited Evidence.</a> IEEE Computer, volume 46, number 3, March 2013, pages 78-85.</li>
+
+      <li style="margin: 1em 0;">[C3] Anup K. Kalia, Zhe Zhang, and Munindar P. Singh. <a href="http://www.csc.ncsu.edu/faculty/mpsingh/papers/mas/AAMAS-trust-13.pdf" target="_new" alt="Trustworthy Decision Making via Commitments">Trustworthy Decision Making via Commitments.</a> Proceedings of the 16th AAMAS Workshop on Trust in Agent Societies (Trust). May 2013.</li>
+
+      <li style="margin: 1em 0;">[C2] Zhe Zhang, Lixing Huang and Jianhua Tao. "Unit Feature Based Pruning of Large-Scale Speech Corpus" Proceedings of the 9th International Conference on Signal Processing, pages 719-722 Oct 2008.</li>
+
+      <li style="margin: 1em 0;">[J1] Zhe Zhang and Jianhua Tao. "Intelligent Internet Information Retrieval System in the realm of transportation and meteorology." Journal of Transportation Systems Engineering and Information Technology, 2006 6(6): 163-168.</li>
+
+    </ul>
+    
+    </div>
+      
+    </div>
+    
+    </div>
+       
+  </div>
+</div>  
+    
+
+  
+  <div class="footer">
+  
+    <div style="float: left">Zhe Zhang © 2014 Computer Science, North Carolina State University</div>
+    <div style="float: right">
+    Last Updated: October 20, 2014
+    </div> 
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>
